@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Karla';
+    position: relative;
+    background: #1C1C1C;
+    //min-height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+box {
+    width: 400px;
+    height: 450px;
+    background: #1F2937;
+    padding: 118px 126px 46px 52px;
+
+}
+
+.card-header {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.card-header-green {
+    color: #10B981;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+
+    letter-spacing: -0.025em;
+}
+
+.supporting-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #D5D4D8;
+}
+
+.generate-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    background: #10B981;
+    margin-bottom: 15px;
+    border-radius: 6px;
+
+    height: 42px;
+    width: 223px;
+}
+
+
+.generate-button-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.divider {
+    position: absolute;
+    width: 446px;
+    height: 0px;
+
+    border: 1px solid #2F3E53;
+}
+
+.password-content-box-1 {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+
+    background: #273549;
+    border-radius: 6px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.password-content-box-2 {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+
+    background: #273549;
+    border-radius: 6px;
+    margin-top: 35px;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+
+.password-content-box-3 {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+
+    background: #273549;
+    border-radius: 6px;
+    margin-top: 101px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.password-content-box-4 {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+
+    background: #273549;
+    border-radius: 6px;
+    margin-top: 101px;
+    margin-left: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
