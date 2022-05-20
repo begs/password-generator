@@ -1,15 +1,3 @@
-// Krav:
-//
-// Array som holder alle mulige karakterer for passordet
-// Knapp som genererer 4 tilfeldige passord
-// Vis passordvalg
-// Stretch: valg om lengde på passordet
-// Stretch: 1-click copy til clipboard (hint: bruk <input type="text"> for å vise passord options)
-//
-//
-// hints:
-// https://github.com/nurme-ave/scrimba-solo-project-random-password-generator
-
 let passwordLength = 15;
 let passwordEl1 = document.getElementById("password-el-1");
 let passwordEl2 = document.getElementById("password-el-2");
