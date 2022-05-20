@@ -15,7 +15,7 @@ html, body {
 
 box {
     width: 400px;
-    height: 450px;
+    height: 400px;
     background: #1F2937;
     padding: 118px 126px 46px 52px;
 
@@ -28,8 +28,6 @@ box {
     line-height: 40px;
 
     letter-spacing: -0.025em;
-
-    /* white */
 
     color: #FFFFFF;
 }
@@ -49,8 +47,9 @@ box {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px;
-
+    line-height: 0px;
+    padding-bottom: 1px;
+    padding-top: 0px;
     color: #D5D4D8;
 }
 
@@ -59,15 +58,14 @@ box {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9px 17px 9px 15px;
     background: #10B981;
-    margin-bottom: 15px;
+    margin-top: 51px;
+    margin-bottom: 29px;
     border-radius: 6px;
 
     height: 42px;
     width: 223px;
 }
-
 
 .generate-button-text {
     font-family: 'Inter';
@@ -76,11 +74,12 @@ box {
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    padding-left: 15px;
 }
 
 .divider {
     position: absolute;
-    width: 446px;
+    width: 458px;
     height: 0px;
 
     border: 1px solid #2F3E53;

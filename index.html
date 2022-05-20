@@ -4,17 +4,22 @@
         <link
               href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;800&display=swap"
                     rel="stylesheet"/>
+ 
+        <link
+              href="https://fonts.googleapis.com/css?family=Inter"
+                    rel="stylesheet"/>
     </head>
     
     <body>
     <box>
-        <h1 class="card-header">Generate a
-            <div class="card-header-green">random password</div></h1>
+    <body onLoad="generateButtonClicked()">
+        <div class="card-header">Generate a
+            <div class="card-header-green">random password</div></div>
 
-        <h2 class="supporting-text">Never use an insecure password again.</h2>
+        <p class="supporting-text">Never use an insecure password again.</p>
 
-    <button class="generate-button">
-        <div class="generate-button-text" onclick="generateButtonClicked()">Generate passwords</div>
+    <button class="generate-button" onclick="generateButtonClicked()">
+        <img src="icons/lightning-icon.png" alt="lightning icon" style="width:14px; height: 19px;"><div class="generate-button-text">Generate passwords</div>
     </button>
 
     <hr class="divider"></hr>
