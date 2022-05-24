@@ -13,3 +13,7 @@ Live demo: https://begs.github.io/password-generator/
 Provided design to follow (provided in Figma):
 
 ![project design](https://i.imgur.com/dQF4y7v.png)
+
+## Planned changes
+- Remove repeating code
+- Improve and create more dynamic design for the password boxes
