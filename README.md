@@ -3,7 +3,7 @@ Solo project from the Front-End Developer Career Path at Scrimba.
 
 Live demo: https://begs.github.io/password-generator/
 
-## Requirements for the project:
+## Requirements for the project
 - Create an array to hold all possible password characters
 - Create buttons to generate 4 random password options
 - Display password options
@@ -17,3 +17,4 @@ Provided design to follow (provided in Figma):
 ## Planned changes
 - Remove repeating code
 - Improve and create more dynamic design for the password boxes
+- Implement stretch goals
