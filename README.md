@@ -18,3 +18,4 @@ Provided design to follow (provided in Figma):
 - Remove repeating code
 - Improve and create more dynamic design for the password boxes
 - Implement stretch goals
+- Rewrite HTML
