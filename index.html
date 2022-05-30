@@ -1,14 +1,22 @@
 <html>
 <head>
+        <!--Import Google fonts-->
         <link rel="stylesheet" href="index.css">
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;800&display=swap" rel="stylesheet"/> 
-        <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
     
 <body>
     <box>
-        <div class="card-header">Generate a
-        <div class="card-header-green">random password</div></div>
+        <div id="header-wrapper">
+            <div class="card-header">Generate a
+            <div class="card-header-green">random password</div></div>
+        </div>
 
         <p class="supporting-text">Never use an insecure password again.</p>
 
@@ -16,24 +24,29 @@
             <img src="icons/lightning-icon.png" alt="lightning icon" style="width:14px; height: 19px;"><div class="generate-button-text">Generate passwords</div>
         </button>
 
-        <hr class="divider"></hr>
+        <hr class="divider">
+        
+        <div class="password-content-wrapper">
+            <div>
+                <div>
+                    <div class="password"><img src="icons/dots-icon.png" alt="empty password icon"></div>
+                </div>
 
-        <div class="password-content-box-1">
-            <div id="password-el-1"><img src="icons/dots-icon.png" alt="empty password icon"></div>
-        </div>
+                <div class="password">
+                    <div id="password-el-2"><img src="icons/dots-icon.png" alt="empty password icon"></div>
+                </div>
+            </div>
 
-        <div class="password-content-box-2">
-            <div id="password-el-2"><img src="icons/dots-icon.png" alt="empty password icon"></div>
-        </div>
+            <div>
+                <div class="password">
+                    <div id="password-el-3"><img src="icons/dots-icon.png" alt="empty password icon"></div>
+                </div>
     
-        <div class="password-content-box-3">
-            <div id="password-el-3"><img src="icons/dots-icon.png" alt="empty password icon"></div>
+                <div class="password">
+                    <div id="password-el-4"><img src="icons/dots-icon.png" alt="empty password icon"></div>
+                </div>
+            </div>
         </div>
-    
-        <div class="password-content-box-4">
-            <div id="password-el-4"><img src="icons/dots-icon.png" alt="empty password icon"></div>
-        </div>
-
     </box>
     <script src="index.js"></script>
 </body>

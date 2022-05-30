@@ -1,4 +1,7 @@
-let passwordLength = 15;
+const passwordLength = 15;
+const numPasswords = 4;
+const passwordEls = document.querySelectorAll('.password')
+
 let passwordEl1 = document.getElementById("password-el-1");
 let passwordEl2 = document.getElementById("password-el-2");
 let passwordEl3 = document.getElementById("password-el-3");
@@ -16,8 +19,7 @@ function generatePassword() {
 }
 
 function generateButtonClicked() {
-	passwordEl1.innerText = generatePassword();
-	passwordEl2.innerText = generatePassword();
-	passwordEl3.innerText = generatePassword();
-	passwordEl4.innerText = generatePassword();
+	for (i = 0; i<numPasswords; i++) {
+		passwordEls[i].textContent = generatePassword();
+	}
 }
