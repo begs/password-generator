@@ -15,7 +15,10 @@ Provided design to follow (provided in Figma):
 ![project design](https://i.imgur.com/dQF4y7v.png)
 
 ## Planned changes
-- Remove repeating code
-- Improve and create more dynamic design for the password boxes
 - Implement stretch goals
-- Rewrite HTML
+  - Ability to set password length
+  - 1-click copy password to clipboard
+- Store passwords in array
+- ~~Remove repeating code~~ ✅
+- ~~Improve and create more dynamic design for the password boxes~~ ✅
+- ~~Rewrite HTML~~ ✅
