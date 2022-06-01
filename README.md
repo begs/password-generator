@@ -18,7 +18,7 @@ Provided design to follow (provided in Figma):
 - Implement stretch goals
   - Ability to set password length
   - 1-click copy password to clipboard
-- Store passwords in array
+- ~~Store passwords in array~~ ✅
 - ~~Remove repeating code~~ ✅
 - ~~Improve and create more dynamic design for the password boxes~~ ✅
 - ~~Rewrite HTML~~ ✅
