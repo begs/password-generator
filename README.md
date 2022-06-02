@@ -1,5 +1,5 @@
 # password-generator
-Solo project from the Front-End Developer Career Path at Scrimba.
+Solo project from Module 3: "Making websites interactive" in the Front-End Developer Career Path at Scrimba.
 
 Live demo: https://begs.github.io/password-generator/
 
